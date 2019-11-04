@@ -93,7 +93,7 @@ def test_login_with_wrong_credentials(browser):
 def test_login_with_correct_credentials(browser):
     # Verify login using correct credentials
     user = "xslavik"
-    password = "Fwww-123"
+    password = "Password"
     # Do promenych jsou ulozeny funkcni prihlasovaci udaje
     user_input.send_keys(user)
     pass_input.send_keys(password)
